@@ -5,7 +5,7 @@
 
 variable "image_id" {
   type        = string
-  default = "ami-090252cbe067a9e58"
+  default = "ami-09c813fb71547fc4f"
   description = "RHEL 9"
 }
 
@@ -24,7 +24,7 @@ variable "tags" {
 }
 
 variable "sg_name" {
-    default = "allow_ssh"
+    default = "allow_sshd"
 }
 
 variable "sg_description"{

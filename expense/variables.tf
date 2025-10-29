@@ -5,7 +5,7 @@ variable "instance_names" {
 }
 variable "image_id" {
   type        = string #optional
-  default     = "ami-090252cbe067a9e58" #optional
+  default     = "ami-09c813fb71547fc4f" #optional
   description = "RHEL-9 AMI ID" #optional
 }
 
@@ -21,6 +21,8 @@ variable "common_tags" {
         Terraform = "true"
     }
 }
+
+
 
 #sg variables
 variable "sg_name" {
@@ -45,9 +47,11 @@ variable "allowed_cidr" {
 }
 
 
+
+
 #r53 variables
 variable "zone_id" {
-    default = "Z08560831QXM9E5IS7WT6"
+    default = "Z000651463NAKE3S96UZ"
 }
 
 variable "domain_name" {

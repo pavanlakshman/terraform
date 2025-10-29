@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "pavandevops-remote-state"
+    bucket = "pavandevops-remote-state-s3"
     key    = "dynamic-demo"
     region = "us-east-1"
     dynamodb_table = "pavandevops-locking"

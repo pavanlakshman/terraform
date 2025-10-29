@@ -17,7 +17,7 @@ variable "common_tags" {
 
 #r53 variables
 variable "zone_id" {
-    default = "Z08560831QXM9E5IS7WT6"
+    default = "Z000651463NAKE3S96UZ"
 }
 
 variable "domain_name" {
