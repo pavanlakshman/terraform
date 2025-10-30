@@ -1,3 +1,5 @@
+# If repeated blocks of code is there, then we use this dynamic block. Here I'm trying to allow multiple ports like 22, 80, 8080, 3306. In this case we have to write ingress rules for every port. Then the code will repeated. To overcome this issue use dynamic blocks. Reduce the code is the best standers of coding.
+
 resource "aws_security_group" "allow_ports" {
     name = "allow_ports"
     description = "allowing 22,80,8080,3306 access"

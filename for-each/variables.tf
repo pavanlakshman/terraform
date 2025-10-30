@@ -1,9 +1,9 @@
 variable "instance_names" {
     type = map
     default = {
-        db = "t3.small"
-        backend = "t3.micro"
-        frontend = "t3.micro"
+        db = "t3.small"   # Here each.key = db and each.value = "t3.small"
+        backend = "t3.micro"  # Here each.key = backend and each.value = "t3.micro"
+        frontend = "t3.micro"   # Here each.key = frontend and each.value = "t3.micro"
     }
 }
 
